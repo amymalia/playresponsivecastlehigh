@@ -1,0 +1,49 @@
+body {
+  padding-top: 0px;  /* Move body of page below navbar. */
+  font-family: "Open Sans";
+  color: #999;
+  background-color: grey;
+
+}
+
+.page-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.banner {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 180px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  background-color: darkred;
+  font-family: "Open Sans";
+}
+
+.well {
+  color: grey;
+  background-color: darkred;
+  border:none;
+}
+
+.menu{
+  list-style-type: none;
+
+}
+
+.photo{
+  background-image: url("../images/frontpage.jpg");
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.visible-xs-block{
+  display:block;
+}
+
